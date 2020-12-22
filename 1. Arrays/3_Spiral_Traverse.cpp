@@ -1,3 +1,6 @@
+/*
+See Pic 3_Spiral_Traverse to understand traversal
+*/
 #include<iostream>
 #include<algorithm>
 using namespace std;
