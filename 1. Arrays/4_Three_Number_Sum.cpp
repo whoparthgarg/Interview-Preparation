@@ -1,3 +1,9 @@
+/*
+Given size , array and required sum
+Output pair of three numbers from array
+which make sum equal to the required sum
+*/
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
