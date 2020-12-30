@@ -1,3 +1,11 @@
+/*
+Move Element to end
+Input : size of array , array , element 
+Output : Array with all occurence of element in end
+O(N) Time Complexity
+O(1) Space Complexity
+*/
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
