@@ -1,3 +1,8 @@
+/*
+For Reference : Check 6_Product_of_Array.png
+This is Efficient method
+*/
+
 #include<iostream>
 using namespace std;
 void productOfArray(int a[],int n)
