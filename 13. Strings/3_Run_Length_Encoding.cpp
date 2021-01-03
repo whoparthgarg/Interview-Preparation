@@ -1,3 +1,7 @@
+/*
+See 3_Run_Length_Encoding.jpg for reference
+*/
+
 #include<iostream>
 #include<cstring>
 using namespace std;
