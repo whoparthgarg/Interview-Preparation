@@ -1,3 +1,8 @@
+/*
+Code describes how to construct a doubly linked list
+and perform basic operations like : insertion , deletion
+searching
+*/
 #include<iostream>
 using namespace std;
 
