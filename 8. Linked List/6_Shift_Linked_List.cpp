@@ -46,6 +46,7 @@ void print(node* head)
 }
 int main()
 {
+    //constructing linked list
     node* head=new node(1);
     node* second=new node(2);
     node* third=new node(3);
@@ -58,7 +59,7 @@ int main()
     forth->next=fifth;
     fifth->next=NULL;
 
-    print(head);
+    print(head);// 1->2->3->4->5->NULL
 
     //number of shifting
     int k;
