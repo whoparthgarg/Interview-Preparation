@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Method 1 : Brute force with 2 loops O(n*n)
+Method 2 : Using one while loop and 2 pointers O(n)
+*/
+
 void smallestDifference(int n1,int n2,int a[],int b[])
 {
     sort(a,a+n1);
@@ -54,5 +59,17 @@ int main()
     }
 
     smallestDifference(n1,n2,arr1,arr2);
+    
+    /*
+    Sample Input :
+    6 5
+    -1 3 5 10 20 28
+    15 17 26 134 135
+    
+    Output :
+    28 26 
+    2
+    */
+    
     return 0;
 }
