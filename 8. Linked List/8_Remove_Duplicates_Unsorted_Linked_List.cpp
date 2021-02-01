@@ -30,7 +30,7 @@ void insertAtHead(node* &head,int d)
     return ;
 }
 
-void removeDuplicates(node* &head)
+void removeDuplicates(node* &head) // O(n*n)
 {
     node* p1=NULL;
     node* p2=NULL;
