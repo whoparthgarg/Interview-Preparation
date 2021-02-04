@@ -51,6 +51,5 @@ int main()
     cin>>k;
 
     threeNumberSum(a,n,k);
-
     return 0;
 }
