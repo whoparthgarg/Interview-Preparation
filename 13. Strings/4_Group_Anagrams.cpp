@@ -1,13 +1,10 @@
-// C++ program for finding all anagram
-// pairs in the given array
 #include <algorithm>
 #include <iostream>
 #include <unordered_map>
 #include <vector>
 using namespace std;
 
-// Utility function for
-// printing anagram list
+
 void printAnagram(
 	unordered_map<string,
 				vector<string> >& store)
