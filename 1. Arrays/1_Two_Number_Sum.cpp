@@ -8,42 +8,57 @@ Solution :
 3rd method : two pointer approach only for sorted arrays (n)
 */
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
+
+void twoNumberSum(int *a,int n,int k)
 {
-    int n;
-    cin>>n;
-
-    int a[n];
-    for(int i=0;i<n;i++)
-    {
-        cin>>a[i];
-    }
-
-    int k;
-    cin>>k;
-
     int i=0;
     int j=n-1;
 
     while(i<j)
     {
-        if((a[i]+a[j])==k)
+        int sum=a[i]+a[j];
+        if(sum==k)
         {
-            cout<<a[i]<<" and "<<a[j]<<endl;
+            cout<<a[i]<<" "<<a[j]<<endl;
             i++;
             j--;
         }
-        else if((a[i]+a[j])>k)
+        else if(sum>k)
         {
             j--;
         }
-        else if((a[i]+a[j])<k)
+        else if(sum<k)
         {
             i++;
         }
     }
 
+    if(i==j)
+    {
+        cout<<"-1";
+    }
+
+    return ;
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+
+    int arr[1000];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+
+    sort(arr,arr+n);
+
+    int k;
+    cin>>k;
+
+    twoNumberSum(arr,n,k);
     return 0;
 }
