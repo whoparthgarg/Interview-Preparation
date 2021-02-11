@@ -77,6 +77,5 @@ int main()
     }
 
     spiral(arr,r,c);
-
     return 0;
 }
