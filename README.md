@@ -1,8 +1,8 @@
-# 100-Days-of-Code
+# FAANG Interview Questions
 
 Hey Coders !!! 
 
-Starting off my 🚀 100 Days of code journey . I will be sharing one question daily with solution . Goal is to improve problem solving skills .
+Starting off my 🚀 INTERVIEW CODING journey .
 
 Topics Covered :
 1) Arrays
@@ -11,11 +11,12 @@ Topics Covered :
 4) Dynamic Programming
 5) Famous Algorithms
 6) Graphs
-7) Heaps
-8) Linked List
-9) Recursion
-10) Searching
-11) Sorting
-12) Stacks
-13) Strings
-14) Tries
+7) Greedy Algorithms 
+8) Heaps
+9) Linked List
+10) Recursion
+11) Searching
+12) Sorting
+13) Stacks
+14) Strings
+15) Tries
