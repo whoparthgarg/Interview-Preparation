@@ -1,4 +1,4 @@
-# FAANG Interview Questions
+# 100 FAANG Interview Questions
 
 Hey Coders !!! 
 
