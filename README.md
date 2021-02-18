@@ -1,8 +1,6 @@
-# 100 FAANG Interview Questions
+# 100 Days Of Code
 
-Hey Coders !!! 
-
-Starting off my 🚀 INTERVIEW CODING journey .
+Starting off my 🚀 100 Days Of Code journey .
 
 Topics Covered :
 1) Arrays
