@@ -1,6 +1,4 @@
-# 100 Days Of Code
-
-Starting off my 🚀 100 Days Of Code journey .
+# DSA 450 Cracker Sheet
 
 Topics Covered :
 1) Arrays
