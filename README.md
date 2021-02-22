@@ -1,4 +1,4 @@
-# DSA 450 Cracker Sheet
+# DSA 450 Cracker Sheet 🚀🚀🚀
 
 Topics Covered :
 1) Arrays
